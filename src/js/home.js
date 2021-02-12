@@ -68,7 +68,7 @@
 
 
 (async function load(){
-  const BASE_API = 'https://yts.am/api/v2/';
+  const BASE_API = 'https://yts.mx/api/v2/';
 
   async function getData(url){
     const response = await fetch(url);
